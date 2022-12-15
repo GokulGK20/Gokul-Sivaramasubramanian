@@ -1,0 +1,21 @@
+#include<iostream>
+	using namespace std;
+	class eee
+	{
+		//access specify
+		public:
+		void cupboard()
+		{
+			cout<<"Cupboard is installed";
+		}
+		void projector()
+		{
+			cout<<"Projector is on";
+		}
+	};
+	int main()
+	{
+		eee key;  //key is the object 
+		key.projector(); //only after creating the object, class can be       accessed 
+		key.cupboard();
+}
