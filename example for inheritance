@@ -1,0 +1,35 @@
+#include<iostream>
+	using namespace std;
+class father
+{ public:
+	void projector1()
+	{
+		cout<<”Projector-1 is on”;
+	}
+	void ac1()
+	{
+		cout<<”AC-1 is on”;
+	}
+}fa;
+class child:public father //inheritance syntax
+{
+public:
+	void projector2()
+	{
+		cout<<”Projector-2 is on”;
+	}
+	void ac2()
+	{
+		cout<<”AC-2 is on”;
+	}
+}ch;
+int main()
+{
+	ch.ac1();
+	ch.ac2();
+	ch.projector1();
+	ch.projector2();
+}
+	
+
+
